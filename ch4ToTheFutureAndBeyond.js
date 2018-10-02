@@ -58,7 +58,7 @@ If the pad string is not specified, a space is used by
 default.
 */
 
-console.log(1. padStart(10)); // "          1"
+console.log('1'.padStart(10)); // "          1"
 // Similarly 
 console.log('1'.padStart(10, "0")); // "0000000001"
 // Other hand 
@@ -67,4 +67,4 @@ console.log('1'.padEnd(10)); // "1          "
 console.log('1'.padEnd(10, "0")); // "1000000000"
 
 console.log('2018'.padStart(4, "0")); // "2018"
-console.log('2018'.padEnd(3, "0")); // "2018"
+console.log('2018'.padEnd(3, "0")); // "2018'
